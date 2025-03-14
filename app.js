@@ -32,8 +32,9 @@ root.innerHTML='HELLO COUNTER WORLD'
 const btns = ['#btn', '#btn2', '#btn3'].map((el)=>{return querySelct(el)})
 
 /** 
- * implicit global variable behavior
- * however in best prectice it is better to use querySelector and store it in a const in case of var naming conflicts
+ * btn.innerHTML implicit global variable behavior allow you to automatically select document id 
+ * however, in best prectice, it is suggested 
+ * to use querySelector and store it in a const in case of var naming conflicts
  * 
  * e.g. 
  * const btn = document.querySelector('#btn')
