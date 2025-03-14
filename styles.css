@@ -1,0 +1,8 @@
+#btn, #btn2, #btn3 {
+    border-radius: 12px;
+    background-color: rgb(77, 108, 164);
+    max-width: 40px;
+    text-align: center;
+    color: azure;
+    cursor: pointer;
+}
